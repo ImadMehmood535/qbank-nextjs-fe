@@ -7,7 +7,7 @@ import LinkComponent2 from "../general/LinkComponent2";
 const Banner = () => {
   return (
     <div className="container mx-auto w-full">
-      <div className=" bg-[#243656] rounded-3xl text-white">
+      <div className=" bg-pattern bg-[#243656] rounded-3xl text-white">
         <div className="flex flex-wrap lg:flex-nowrap items-center px-3 py-6 lg:px-0 lg:py-0">
           <div className="w-full lg:px-16 flex flex-col gap-5">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl uppercase">
@@ -59,7 +59,7 @@ const Banner = () => {
                 width={1000}
                 height={1000}
                 alt="Hone Banner Screen"
-                quality={40}
+                quality={10}
                 objectPosition="center"
                 loading="lazy"
                 className="w-[350px] mx-auto"
